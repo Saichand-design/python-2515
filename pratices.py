@@ -1,3 +1,12 @@
-print("hello")
-print('sai chand is good boy ')
-print( a = 10)
+{
+    "label": "run Python script",
+    "type: "shell",
+    "command": "python",
+    "args": ["${file}"],
+    "group": {
+        "kind": "build"
+        "isdeault": true
+    },
+    "problemMatcher"[]
+
+}
